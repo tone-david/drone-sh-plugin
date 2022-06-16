@@ -4,9 +4,9 @@ name: default
 
 steps:
 - name: webhook
-  image: acme/webhook
+  image: ddavidzhang/webhook
   settings:
-    url: http://hook.acme.com
+    url: http://www.baidu.com
     method: post
     body: |
       hello world
